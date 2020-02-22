@@ -13,10 +13,11 @@ Create a php file, test.php at your php apache server or xamp / wamp
 if you are in localhost, then the link will be http://localhost/test.php
 
 <code>
+<pre>
 header("Access-Control-Allow-Origin: *");
 $data = file_get_contents('php://input');
 echo  $data . " from server";
-
+</pre>
 </code>
 
 In the project directory, you can run:
