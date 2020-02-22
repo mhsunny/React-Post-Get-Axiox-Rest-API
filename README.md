@@ -12,16 +12,13 @@ Go to here, https://restcountries.eu/ and you get country list api
 Create a php file, test.php at your php apache server or xamp / wamp  
 if you are in localhost, then the link will be http://localhost/test.php
 
-<pre>
 <code>
-<?php
 header("Access-Control-Allow-Origin: *");
 $data = file_get_contents('php://input');
 echo  $data . " from server";
-?>
 
 </code>
-</pre>
+
 In the project directory, you can run:
 
 ### `npm start`
