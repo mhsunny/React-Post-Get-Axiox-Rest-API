@@ -14,9 +14,11 @@ if you are in localhost, then the link will be http://localhost/test.php
 
 <code>
 <pre>
+<?php 
 header("Access-Control-Allow-Origin: *");
 $data = file_get_contents('php://input');
 echo  $data . " from server";
+?>
 </pre>
 </code>
 
