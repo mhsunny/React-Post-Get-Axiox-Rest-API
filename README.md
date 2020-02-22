@@ -2,6 +2,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+##Get data
+I get all country name from this rest api
+https://restcountries.eu/rest/v2/all
+Go to here, https://restcountries.eu/ and you get country list api
+
+
+##Post data
+Create a php file, test.php at your php apache server or xamp / wamp  
+if you are in localhost, then the link will be http://localhost/test.php
+
+<?php
+header("Access-Control-Allow-Origin: *");
+$data = file_get_contents('php://input');
+echo  $data . " from server";
+?>
+
+
 In the project directory, you can run:
 
 ### `npm start`
