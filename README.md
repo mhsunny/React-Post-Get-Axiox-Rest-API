@@ -20,7 +20,7 @@ $data = file_get_contents('php://input');
 echo  $data . " from server";
 ?>
 
-<code>
+</code>
 </pre>
 In the project directory, you can run:
 
