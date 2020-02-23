@@ -1,15 +1,20 @@
 import React from 'react';
-
 import './App.css';
-import CountryList from "./CountryList";
-import Post from "./Post";
+import Navigation from "./Navigation";
+import Home from "./Home";
+import {DaDaPovider} from "./Mycontext";
+
+
 
 function App() {
   return (
     <div className="App">
-        <Post/>
 
-        <CountryList />
+        <Navigation />
+
+        <DaDaPovider value="30% Discount Any Order">
+         <Home />
+        </DaDaPovider>
 
     </div>
   );

@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+
+
 ##Get data
 I get all country name from this rest api
 https://restcountries.eu/rest/v2/all
@@ -21,6 +23,29 @@ echo  $data . " from server";
  
 </pre>
 </code>
+
+##React Table
+
+Solved the problem!!!
+
+You have to install
+
+npm install react-table-6
+
+and then import 
+```
+import React, {Component} from 'react';
+
+import ReactTable from 'react-table-6';
+
+import 'react-table-6/react-table.css';
+
+```
+
+its solved:)
+Reference   https://www.npmjs.com/package/react-table-6
+
+
 
 In the project directory, you can run:
 

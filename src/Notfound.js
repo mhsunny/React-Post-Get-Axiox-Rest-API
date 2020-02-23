@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 
-class Your extends Component {
+class Notfound extends Component {
     render() {
         return (
             <div>
-                My your js
-
+                page not found
             </div>
         );
     }
 }
 
-export default Your;
+export default Notfound;

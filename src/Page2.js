@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
+import MainSlider from "./MainSlider";
 
-class Your extends Component {
+class Page2 extends Component {
     render() {
         return (
             <div>
-                My your js
-
+                <MainSlider />
             </div>
         );
     }
 }
 
-export default Your;
+export default Page2;
